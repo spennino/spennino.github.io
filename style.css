@@ -95,7 +95,7 @@ i {
 
 @media only screen and (min-width: 1100px) {
   #content {
-    width: 1000px;
+    width: 950px;
     height: 600px;
   }
   
@@ -110,7 +110,7 @@ i {
   }
 
   #profile {
-    width: 650px;
+    width: 600px;
     clear: none;
     text-align: left;
     top: 50%;
