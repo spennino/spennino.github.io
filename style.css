@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 5vw;
   font-weight: bold;
   margin: 0;
   color: #444444;
@@ -19,11 +19,7 @@ i {
 }
 
 .fa {
-  font-size: 2vw !important;
-}
-
-.fa-circle {
-  font-size: 1vw !important;
+  font-size: 4vw !important;
 }
 
 #content {
@@ -42,8 +38,8 @@ i {
 }
 
 #headshot-img {
-  width: 15vw;
-  height: 15vw;
+  width: 20vw;
+  height: 20vw;
   float: left;
   background-image: url('img/headshot2.jpg');
   background-size: 100%;
@@ -61,4 +57,50 @@ i {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .fa {
+    font-size: 20px !important;
+  }
+
+  i {
+    margin-right: 4px;
+  }
+
+  #headshot {
+    margin: 0 12px 0 22px;
+  }
+
+  #headshot-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .fa {
+    font-size: 40px !important;
+  }
+
+  i {
+    margin-right: 8px;
+  }
+
+  #headshot {
+    margin: 0 20px 0 50px;
+  }
+
+  #headshot-img {
+    width: 200px;
+    height: 200px;
+  }
 }
