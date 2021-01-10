@@ -3,18 +3,18 @@
 body {
   font-family: 'Catamaran', sans-serif;
   margin: 0;
-  background-color: #fffbff;
+  background-color: #ffffff;
 }
 
 h1 {
   font-size: 5vw;
   font-weight: bold;
   margin: 0;
-  color: #444444;
+  color: #9C4D49;
 }
 
 i {
-  color: #ca4bb4;
+  color: #586994;
   margin-right: .8vw;
 }
 
@@ -45,7 +45,7 @@ i {
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 50%;
-  background-position: 0px 0px;
+  background-position: center center;
 }
 
 #info {
